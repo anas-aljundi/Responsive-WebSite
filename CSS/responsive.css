@@ -1,0 +1,67 @@
+/*============================
+    Bootstrap Media Queries
+  ============================*/
+
+/* Large Devices (Desktops & Laptops ) */
+
+@media (min-width: 1200px) {
+    /* Evrey thing is OK */
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops ) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        background-color: rgba(0,0,0,.7);
+        padding: 0;
+    }
+    .navbar-nav{
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops ) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     .navbar {
+        background-color: rgba(0,0,0,.7);
+        padding: 0;
+    }
+    .navbar-nav{
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+    /* About -remove diagonal border */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 500px;
+    }
+    /* About content-box */
+    #about-content-box {
+        width: 100%;
+        height: 500px;
+    }
+    /* Stats */
+    .stats-item {
+        padding: 20px 0;
+    }
+    /* Footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices (Landscape phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    #home-heading h3 {
+        color: brown;
+    }
+}
